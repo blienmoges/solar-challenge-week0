@@ -1,17 +1,30 @@
-# 🌞 Solar Challenge Week 0
+# ☀️ Solar Challenge Week 0 — MoonLight Energy Solutions
 
-This project is part of the **10 Academy Artificial Intelligence Mastery** program.  
-The goal is to analyze solar farm data from **Benin, Sierra Leone, and Togo** and provide insights for **MoonLight Energy Solutions**.
+> A 10 Academy Artificial Intelligence Mastery project analyzing solar data across **Benin**, **Sierra Leone**, and **Togo** to unlock Africa’s renewable energy potential.
 
-## 🧭 Objectives
-- Perform exploratory data analysis (EDA) on environmental and solar metrics.
-- Identify high-potential regions for solar installation.
-- Present a data-driven recommendation strategy.
+---
 
-## 🛠️ Setup
+## 🌍 Project Overview
+
+This project marks the beginning of the **10 Academy AI Mastery Program**, focusing on **data-driven insights for solar energy development**.  
+The challenge explores country-level solar datasets to identify **high-potential regions for solar farm installations**, supporting **MoonLight Energy Solutions** in scaling sustainable energy solutions across West Africa.
+
+This work emphasizes **data cleaning, exploratory data analysis (EDA)**, and **environmental insight generation**, which together form the foundation for intelligent solar energy planning.
+
+---
+
+## 🎯 Objectives
+
+- Perform **Exploratory Data Analysis (EDA)** on solar and environmental metrics.  
+- **Profile and clean** datasets to ensure comparability across regions.  
+- Identify **patterns, trends, and anomalies** influencing solar energy efficiency.  
+- Provide **data-driven recommendations** for optimal solar investment locations.
+
+---
+
+## 🧱 Repository Setup
+
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/blienmoges/solar-challenge-week0
 cd solar-challenge-week0
-python -m venv venv
-source venv/Scripts/activate   # for Git Bash
-pip install -r requirements.txt
