@@ -10,7 +10,7 @@ The goal is to analyze solar farm data from **Benin, Sierra Leone, and Togo** an
 
 ## 🛠️ Setup
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/blienmoges/solar-challenge-week0
 cd solar-challenge-week0
 python -m venv venv
 source venv/Scripts/activate   # for Git Bash
