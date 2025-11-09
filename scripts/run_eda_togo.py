@@ -1,0 +1,17 @@
+from src.data_loader import load_data
+from src.cleaning import handle_missing, remove_outliers
+from src.eda import plot_time_series, plot_correlation
+
+# Load Togo dataset
+df = load_data('data/togo.csv')
+
+# Define numeric columns
+numeric_cols = ['GHI','DNI','DHI','ModA','ModB','WS','WSgust']
+
+# Clean data
+df = handle_missing(df, numeric_cols)
+df = remove_outliers(df, numeric_cols)
+
+# Exploratory Data Analysis
+plot_time_series(df, 'Timestamp', 'GHI', 'GHI Over Time - Togo')
+plot_correlation(df, numeric_cols)
