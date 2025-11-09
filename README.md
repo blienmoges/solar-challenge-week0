@@ -2,7 +2,7 @@
 
 > A 10 Academy Artificial Intelligence Mastery project analyzing solar data across **Benin**, **Sierra Leone**, and **Togo** to unlock Africa’s renewable energy potential.
 
----
+
 
 ## 🌍 Project Overview
 
@@ -11,7 +11,7 @@ The challenge explores country-level solar datasets to identify **high-potential
 
 This work emphasizes **data cleaning, exploratory data analysis (EDA)**, and **environmental insight generation**, which together form the foundation for intelligent solar energy planning.
 
----
+
 
 ## 🎯 Objectives
 
@@ -20,7 +20,6 @@ This work emphasizes **data cleaning, exploratory data analysis (EDA)**, and **e
 - Identify **patterns, trends, and anomalies** influencing solar energy efficiency.  
 - Provide **data-driven recommendations** for optimal solar investment locations.
 
----
 
 ## 🧱 Repository Setup
 
