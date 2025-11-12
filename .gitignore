@@ -1,6 +1,22 @@
+# Ignore virtual environment folders
 venv/
+.env/
+
+# Ignore Python cache
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
+
+# Ignore data files
 data/
 *.csv
- 
+*.xlsx
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore Streamlit or temporary files
+*.log
+*.tmp
